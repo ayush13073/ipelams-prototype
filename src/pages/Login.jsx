@@ -21,16 +21,7 @@ const ROLES = [
     role: 'logistics',
     accent: 'teal',
   },
-  {
-    id: 'leader',
-    name: 'Expedition Leader',
-    subtitle: 'All locations · Approval',
-    icon: '◉',
-    view: 'both',
-    route: '/goa',
-    role: 'leader',
-    accent: 'purple',
-  },
+  // 👈 The "Expedition Leader" object was here and has been removed
   {
     id: 'station-mgr',
     name: 'Station Manager',
